@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<opencv_storage>
+<x_1>194.</x_1>
+<y_1>293.</y_1>
+<x_2>221.</x_2>
+<y_2>274.</y_2>
+<Lenth>3.3015099999999997e+001</Lenth>
+<angle>8.8315299999999993e+001</angle>
+<matrix_eye type_id="opencv-matrix">
+  <rows>3</rows>
+  <cols>3</cols>
+  <dt>d</dt>
+  <data>
+    1. 0. 0. 0. 1. 0. 0. 0. 1.</data></matrix_eye>
+</opencv_storage>

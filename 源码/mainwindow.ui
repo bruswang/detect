@@ -1,0 +1,2476 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1800</width>
+    <height>1000</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QWidget" name="widget" native="true">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>0</y>
+      <width>1021</width>
+      <height>44</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QWidget#widget{border:1px solid #242424;}</string>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="QPushButton" name="pushButton">
+       <property name="minimumSize">
+        <size>
+         <width>0</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>选择图片</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="Btn_SaveFile">
+       <property name="minimumSize">
+        <size>
+         <width>0</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>文件打开读图</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="Btn_SaveOther">
+       <property name="minimumSize">
+        <size>
+         <width>0</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>另存为</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButton_3">
+       <property name="minimumSize">
+        <size>
+         <width>0</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>直线选择</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButton_4">
+       <property name="minimumSize">
+        <size>
+         <width>0</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>圆选择</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="Btn_CirNewChosse">
+       <property name="minimumSize">
+        <size>
+         <width>0</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>检测圆</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="Btn_HuaYuan">
+       <property name="minimumSize">
+        <size>
+         <width>0</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>三点定圆</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButton_6">
+       <property name="minimumSize">
+        <size>
+         <width>0</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>  读出当前图</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButton_12">
+       <property name="minimumSize">
+        <size>
+         <width>0</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>直线导航栏</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButton_11">
+       <property name="minimumSize">
+        <size>
+         <width>0</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>圆导航栏</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="widget_2" native="true">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>43</y>
+      <width>1531</width>
+      <height>891</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>971</width>
+      <height>0</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QWidget#widget_2{border:1px solid rgb(85, 170, 255);}</string>
+    </property>
+    <widget class="QWidget" name="widget_4" native="true">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>10</y>
+       <width>1501</width>
+       <height>711</height>
+      </rect>
+     </property>
+     <layout class="QGridLayout" name="gridLayout">
+      <property name="leftMargin">
+       <number>0</number>
+      </property>
+      <property name="topMargin">
+       <number>0</number>
+      </property>
+      <property name="rightMargin">
+       <number>0</number>
+      </property>
+      <property name="bottomMargin">
+       <number>0</number>
+      </property>
+      <property name="spacing">
+       <number>0</number>
+      </property>
+     </layout>
+    </widget>
+    <widget class="QTabWidget" name="tabWidget_2">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>720</y>
+       <width>1511</width>
+       <height>161</height>
+      </rect>
+     </property>
+     <property name="currentIndex">
+      <number>0</number>
+     </property>
+     <widget class="QWidget" name="tab_3">
+      <attribute name="title">
+       <string>直线</string>
+      </attribute>
+      <widget class="QWidget" name="widget_3" native="true">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>0</y>
+         <width>1491</width>
+         <height>134</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QWidget#widget_3{border:1px solid rgb(170, 255, 255);}</string>
+       </property>
+       <widget class="QWidget" name="layoutWidget">
+        <property name="geometry">
+         <rect>
+          <x>143</x>
+          <y>69</y>
+          <width>101</width>
+          <height>52</height>
+         </rect>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout_4">
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout_10">
+           <item>
+            <widget class="QLabel" name="label_4">
+             <property name="maximumSize">
+              <size>
+               <width>100</width>
+               <height>16777215</height>
+              </size>
+             </property>
+             <property name="text">
+              <string>x2:</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLineEdit" name="lineEdit_start_x_2">
+             <property name="maximumSize">
+              <size>
+               <width>100</width>
+               <height>16777215</height>
+              </size>
+             </property>
+             <property name="text">
+              <string>0</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout_12">
+           <item>
+            <widget class="QLabel" name="label_13">
+             <property name="maximumSize">
+              <size>
+               <width>100</width>
+               <height>16777215</height>
+              </size>
+             </property>
+             <property name="text">
+              <string>y2:</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLineEdit" name="lineEdit_start_y_2">
+             <property name="maximumSize">
+              <size>
+               <width>100</width>
+               <height>16777215</height>
+              </size>
+             </property>
+             <property name="text">
+              <string>0</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+        </layout>
+       </widget>
+       <widget class="QLabel" name="label_10">
+        <property name="geometry">
+         <rect>
+          <x>11</x>
+          <y>30</y>
+          <width>151</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>当前图片实时点位:</string>
+        </property>
+       </widget>
+       <widget class="QWidget" name="layoutWidget_2">
+        <property name="geometry">
+         <rect>
+          <x>20</x>
+          <y>70</y>
+          <width>101</width>
+          <height>52</height>
+         </rect>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout_3">
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout_8">
+           <item>
+            <widget class="QLabel" name="label_3">
+             <property name="maximumSize">
+              <size>
+               <width>100</width>
+               <height>16777215</height>
+              </size>
+             </property>
+             <property name="text">
+              <string>x1:</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLineEdit" name="lineEdit_start_x">
+             <property name="maximumSize">
+              <size>
+               <width>100</width>
+               <height>16777215</height>
+              </size>
+             </property>
+             <property name="text">
+              <string>0</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout_9">
+           <item>
+            <widget class="QLabel" name="label_9">
+             <property name="maximumSize">
+              <size>
+               <width>100</width>
+               <height>16777215</height>
+              </size>
+             </property>
+             <property name="text">
+              <string>y1:</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLineEdit" name="lineEdit_start_y">
+             <property name="maximumSize">
+              <size>
+               <width>100</width>
+               <height>16777215</height>
+              </size>
+             </property>
+             <property name="text">
+              <string>0</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+        </layout>
+       </widget>
+       <widget class="QLabel" name="label_14">
+        <property name="geometry">
+         <rect>
+          <x>340</x>
+          <y>30</y>
+          <width>81</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>端点坐标:</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_15">
+        <property name="geometry">
+         <rect>
+          <x>400</x>
+          <y>40</y>
+          <width>18</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>100</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <property name="text">
+         <string>y1:</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_5">
+        <property name="geometry">
+         <rect>
+          <x>400</x>
+          <y>10</y>
+          <width>18</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>100</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <property name="text">
+         <string>x1:</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="lineEdit_Dpointy">
+        <property name="geometry">
+         <rect>
+          <x>424</x>
+          <y>40</y>
+          <width>73</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>100</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <property name="text">
+         <string>0</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="lineEdit_Dpointx">
+        <property name="geometry">
+         <rect>
+          <x>424</x>
+          <y>10</y>
+          <width>73</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>100</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <property name="text">
+         <string>0</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="lineEdit_Lenth">
+        <property name="geometry">
+         <rect>
+          <x>590</x>
+          <y>10</y>
+          <width>73</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>100</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <property name="text">
+         <string>0</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_16">
+        <property name="geometry">
+         <rect>
+          <x>510</x>
+          <y>12</y>
+          <width>61</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>直线长度:</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_6">
+        <property name="geometry">
+         <rect>
+          <x>400</x>
+          <y>70</y>
+          <width>18</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>100</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <property name="text">
+         <string>x2:</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="lineEdit_Dpointx_2">
+        <property name="geometry">
+         <rect>
+          <x>424</x>
+          <y>70</y>
+          <width>73</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>100</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <property name="text">
+         <string>0</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_17">
+        <property name="geometry">
+         <rect>
+          <x>400</x>
+          <y>100</y>
+          <width>18</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>100</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <property name="text">
+         <string>y2:</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="lineEdit_Dpointy_2">
+        <property name="geometry">
+         <rect>
+          <x>424</x>
+          <y>100</y>
+          <width>73</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>100</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <property name="text">
+         <string>0</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="lineEdit_angle">
+        <property name="geometry">
+         <rect>
+          <x>590</x>
+          <y>40</y>
+          <width>73</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>100</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <property name="text">
+         <string>0</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_18">
+        <property name="geometry">
+         <rect>
+          <x>510</x>
+          <y>42</y>
+          <width>61</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>直线角度:</string>
+        </property>
+       </widget>
+       <widget class="QSlider" name="horizontalSlider_Binarization">
+        <property name="geometry">
+         <rect>
+          <x>780</x>
+          <y>67</y>
+          <width>200</width>
+          <height>15</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QSlider{
+    border: 1px solid transparent;
+}
+QSlider::groove{
+    border: 1px solid   rgb(0,84,253);
+    background:  rgb(0,84,253);
+}
+QSlider::handle {/*设置中间的那个滑动的键*/                           
+    border: 1px solid   rgb(154,187,255);
+    background:rgb(154,187,255);
+}
+QSlider::groove:horizontal {
+    height: 3px; /* the groove expands to the size of the slider by default. by giving it a height, it has a fixed size */
+    left:5px; right: 5px;
+}
+QSlider::groove:vertical{
+    width: 3px;
+    top: 5px; bottom: 5px;
+}
+QSlider::handle:horizontal{
+    width: 6px;
+    margin: -7px; /* height */
+}
+QSlider::handle:vertical{
+    height: 6px;
+    margin: -7px; /* height */
+}
+QSlider::add-page{/*还没有滑上去的地方*/
+    border: 1px solid   rgb(0,84,253);
+    background:  rgb(0,84,253);
+}
+QSlider::sub-page{/*已经划过的从地方*/                            
+    background:  rgb(0,84,253);
+}</string>
+        </property>
+        <property name="maximum">
+         <number>200</number>
+        </property>
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="ldt_Gray">
+        <property name="geometry">
+         <rect>
+          <x>990</x>
+          <y>20</y>
+          <width>40</width>
+          <height>30</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background: #FFFFFF;
+border: 1px solid #5498E8;
+box-sizing: border-box;
+border-radius: 4px;
+
+font-family: PingFang SC;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height */
+
+
+color: #666666;</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_24">
+        <property name="geometry">
+         <rect>
+          <x>1080</x>
+          <y>0</y>
+          <width>281</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>13</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>直线参数设置</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="ldt_Binarization">
+        <property name="geometry">
+         <rect>
+          <x>990</x>
+          <y>100</y>
+          <width>40</width>
+          <height>30</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background: #FFFFFF;
+border: 1px solid #5498E8;
+box-sizing: border-box;
+border-radius: 4px;
+
+font-family: PingFang SC;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height */
+
+
+color: #666666;</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_29">
+        <property name="geometry">
+         <rect>
+          <x>650</x>
+          <y>24</y>
+          <width>121</width>
+          <height>22</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font-family: PingFang SC;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 22px;
+
+color: #333333;</string>
+        </property>
+        <property name="text">
+         <string> 阈值1</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+       <widget class="QSlider" name="horizontalSlider_Gray">
+        <property name="geometry">
+         <rect>
+          <x>780</x>
+          <y>27</y>
+          <width>200</width>
+          <height>15</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QSlider{
+    border: 1px solid transparent;
+}
+QSlider::groove{
+    border: 1px solid   rgb(0,84,253);
+    background:  rgb(0,84,253);
+}
+QSlider::handle {/*设置中间的那个滑动的键*/                           
+    border: 1px solid   rgb(154,187,255);
+    background:rgb(154,187,255);
+}
+QSlider::groove:horizontal {
+    height: 3px; /* the groove expands to the size of the slider by default. by giving it a height, it has a fixed size */
+    left:5px; right: 5px;
+}
+QSlider::groove:vertical{
+    width: 3px;
+    top: 5px; bottom: 5px;
+}
+QSlider::handle:horizontal{
+    width: 6px;
+    margin: -7px; /* height */
+}
+QSlider::handle:vertical{
+    height: 6px;
+    margin: -7px; /* height */
+}
+QSlider::add-page{/*还没有滑上去的地方*/
+    border: 1px solid   rgb(0,84,253);
+    background:  rgb(0,84,253);
+}
+QSlider::sub-page{/*已经划过的从地方*/                            
+    background:  rgb(0,84,253);
+}</string>
+        </property>
+        <property name="maximum">
+         <number>100</number>
+        </property>
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_30">
+        <property name="geometry">
+         <rect>
+          <x>654</x>
+          <y>67</y>
+          <width>121</width>
+          <height>22</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font-family: PingFang SC;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 22px;
+
+color: #333333;</string>
+        </property>
+        <property name="text">
+         <string>阈值2</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_31">
+        <property name="geometry">
+         <rect>
+          <x>654</x>
+          <y>105</y>
+          <width>121</width>
+          <height>22</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font-family: PingFang SC;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 22px;
+
+color: #333333;</string>
+        </property>
+        <property name="text">
+         <string>直线检测强度</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="ldt_LinearStrength">
+        <property name="geometry">
+         <rect>
+          <x>990</x>
+          <y>60</y>
+          <width>40</width>
+          <height>30</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background: #FFFFFF;
+border: 1px solid #5498E8;
+box-sizing: border-box;
+border-radius: 4px;
+
+font-family: PingFang SC;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height */
+
+
+color: #666666;</string>
+        </property>
+       </widget>
+       <widget class="QSlider" name="horizontalSlider_LinearStrength">
+        <property name="geometry">
+         <rect>
+          <x>780</x>
+          <y>110</y>
+          <width>200</width>
+          <height>15</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QSlider{
+    border: 1px solid transparent;
+}
+QSlider::groove{
+    border: 1px solid   rgb(0,84,253);
+    background:  rgb(0,84,253);
+}
+QSlider::handle {/*设置中间的那个滑动的键*/                           
+    border: 1px solid   rgb(154,187,255);
+    background:rgb(154,187,255);
+}
+QSlider::groove:horizontal {
+    height: 3px; /* the groove expands to the size of the slider by default. by giving it a height, it has a fixed size */
+    left:5px; right: 5px;
+}
+QSlider::groove:vertical{
+    width: 3px;
+    top: 5px; bottom: 5px;
+}
+QSlider::handle:horizontal{
+    width: 6px;
+    margin: -7px; /* height */
+}
+QSlider::handle:vertical{
+    height: 6px;
+    margin: -7px; /* height */
+}
+QSlider::add-page{/*还没有滑上去的地方*/
+    border: 1px solid   rgb(0,84,253);
+    background:  rgb(0,84,253);
+}
+QSlider::sub-page{/*已经划过的从地方*/                            
+    background:  rgb(0,84,253);
+}</string>
+        </property>
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+       </widget>
+       <widget class="QSlider" name="horizontalSlider_LinearLength">
+        <property name="geometry">
+         <rect>
+          <x>1216</x>
+          <y>60</y>
+          <width>200</width>
+          <height>15</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QSlider{
+    border: 1px solid transparent;
+}
+QSlider::groove{
+    border: 1px solid   rgb(0,84,253);
+    background:  rgb(0,84,253);
+}
+QSlider::handle {/*设置中间的那个滑动的键*/                           
+    border: 1px solid   rgb(154,187,255);
+    background:rgb(154,187,255);
+}
+QSlider::groove:horizontal {
+    height: 3px; /* the groove expands to the size of the slider by default. by giving it a height, it has a fixed size */
+    left:5px; right: 5px;
+}
+QSlider::groove:vertical{
+    width: 3px;
+    top: 5px; bottom: 5px;
+}
+QSlider::handle:horizontal{
+    width: 6px;
+    margin: -7px; /* height */
+}
+QSlider::handle:vertical{
+    height: 6px;
+    margin: -7px; /* height */
+}
+QSlider::add-page{/*还没有滑上去的地方*/
+    border: 1px solid   rgb(0,84,253);
+    background:  rgb(0,84,253);
+}
+QSlider::sub-page{/*已经划过的从地方*/                            
+    background:  rgb(0,84,253);
+}</string>
+        </property>
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="ldt_LinearIntervalLength">
+        <property name="geometry">
+         <rect>
+          <x>1420</x>
+          <y>100</y>
+          <width>40</width>
+          <height>30</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background: #FFFFFF;
+border: 1px solid #5498E8;
+box-sizing: border-box;
+border-radius: 4px;
+
+font-family: PingFang SC;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height */
+
+
+color: #666666;</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_32">
+        <property name="geometry">
+         <rect>
+          <x>1070</x>
+          <y>57</y>
+          <width>121</width>
+          <height>22</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font-family: PingFang SC;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 22px;
+
+color: #333333;</string>
+        </property>
+        <property name="text">
+         <string>直线检测线长</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_33">
+        <property name="geometry">
+         <rect>
+          <x>1070</x>
+          <y>107</y>
+          <width>141</width>
+          <height>22</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font-family: PingFang SC;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 22px;
+
+color: #333333;</string>
+        </property>
+        <property name="text">
+         <string>直线检测间隔线长</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+       <widget class="QSlider" name="horizontalSlider_LinearIntervalLength">
+        <property name="geometry">
+         <rect>
+          <x>1216</x>
+          <y>110</y>
+          <width>200</width>
+          <height>15</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QSlider{
+    border: 1px solid transparent;
+}
+QSlider::groove{
+    border: 1px solid   rgb(0,84,253);
+    background:  rgb(0,84,253);
+}
+QSlider::handle {/*设置中间的那个滑动的键*/                           
+    border: 1px solid   rgb(154,187,255);
+    background:rgb(154,187,255);
+}
+QSlider::groove:horizontal {
+    height: 3px; /* the groove expands to the size of the slider by default. by giving it a height, it has a fixed size */
+    left:5px; right: 5px;
+}
+QSlider::groove:vertical{
+    width: 3px;
+    top: 5px; bottom: 5px;
+}
+QSlider::handle:horizontal{
+    width: 6px;
+    margin: -7px; /* height */
+}
+QSlider::handle:vertical{
+    height: 6px;
+    margin: -7px; /* height */
+}
+QSlider::add-page{/*还没有滑上去的地方*/
+    border: 1px solid   rgb(0,84,253);
+    background:  rgb(0,84,253);
+}
+QSlider::sub-page{/*已经划过的从地方*/                            
+    background:  rgb(0,84,253);
+}</string>
+        </property>
+        <property name="maximum">
+         <number>50</number>
+        </property>
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="ldt_LinearLength">
+        <property name="geometry">
+         <rect>
+          <x>1420</x>
+          <y>50</y>
+          <width>40</width>
+          <height>30</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background: #FFFFFF;
+border: 1px solid #5498E8;
+box-sizing: border-box;
+border-radius: 4px;
+
+font-family: PingFang SC;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height */
+
+
+color: #666666;</string>
+        </property>
+       </widget>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="tab_4">
+      <attribute name="title">
+       <string>圆</string>
+      </attribute>
+      <widget class="QLabel" name="label_11">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>80</y>
+         <width>51</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>圆点位:</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_size_w">
+       <property name="geometry">
+        <rect>
+         <x>80</x>
+         <y>30</y>
+         <width>82</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>100</width>
+         <height>16777215</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>0</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_12">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>30</y>
+         <width>36</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>100</width>
+         <height>16777215</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>圆半径</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_CirPoint">
+       <property name="geometry">
+        <rect>
+         <x>80</x>
+         <y>80</y>
+         <width>82</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>100</width>
+         <height>16777215</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>0</string>
+       </property>
+      </widget>
+     </widget>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="widget_5" native="true">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>930</y>
+      <width>1321</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <widget class="QLabel" name="Lbl_CMD">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>0</y>
+       <width>141</width>
+       <height>30</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>命令显示</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="Lbl_CMD_2">
+     <property name="geometry">
+      <rect>
+       <x>1030</x>
+       <y>0</y>
+       <width>141</width>
+       <height>30</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>系统状态</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QPushButton" name="pushButton_5">
+    <property name="geometry">
+     <rect>
+      <x>1110</x>
+      <y>10</y>
+      <width>76</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>0</width>
+      <height>30</height>
+     </size>
+    </property>
+    <property name="text">
+     <string>放大</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Btn_SetCir">
+    <property name="geometry">
+     <rect>
+      <x>1200</x>
+      <y>10</y>
+      <width>92</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>0</width>
+      <height>30</height>
+     </size>
+    </property>
+    <property name="text">
+     <string>当前设为工作区</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>45</y>
+      <width>21</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>0,0</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_2">
+    <property name="geometry">
+     <rect>
+      <x>1030</x>
+      <y>10</y>
+      <width>92</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>0</width>
+      <height>30</height>
+     </size>
+    </property>
+    <property name="text">
+     <string>设置全局坐标系</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_8">
+    <property name="geometry">
+     <rect>
+      <x>1380</x>
+      <y>10</y>
+      <width>78</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>0</width>
+      <height>30</height>
+     </size>
+    </property>
+    <property name="text">
+     <string>返回原图</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_7">
+    <property name="geometry">
+     <rect>
+      <x>1296</x>
+      <y>10</y>
+      <width>78</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>0</width>
+      <height>30</height>
+     </size>
+    </property>
+    <property name="text">
+     <string>选中区域</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1800</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="layoutDirection">
+    <enum>Qt::LeftToRight</enum>
+   </property>
+   <property name="inputMethodHints">
+    <set>Qt::ImhNone</set>
+   </property>
+   <property name="defaultUp">
+    <bool>false</bool>
+   </property>
+   <widget class="QMenu" name="menu">
+    <property name="layoutDirection">
+     <enum>Qt::LeftToRight</enum>
+    </property>
+    <property name="inputMethodHints">
+     <set>Qt::ImhNone</set>
+    </property>
+    <property name="tearOffEnabled">
+     <bool>false</bool>
+    </property>
+    <property name="title">
+     <string>文件</string>
+    </property>
+    <property name="separatorsCollapsible">
+     <bool>false</bool>
+    </property>
+    <addaction name="action_2"/>
+    <addaction name="action_3"/>
+    <addaction name="action_4"/>
+    <addaction name="action_5"/>
+   </widget>
+   <widget class="QMenu" name="menu_2">
+    <property name="title">
+     <string>识别</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="menu_3">
+    <property name="title">
+     <string>视图</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="menu_4">
+    <property name="title">
+     <string>...</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="menu_5">
+    <property name="title">
+     <string>帮助</string>
+    </property>
+    <addaction name="action"/>
+   </widget>
+   <addaction name="menu"/>
+   <addaction name="menu_2"/>
+   <addaction name="menu_3"/>
+   <addaction name="menu_4"/>
+   <addaction name="menu_5"/>
+  </widget>
+  <widget class="QDockWidget" name="dockWidget">
+   <property name="minimumSize">
+    <size>
+     <width>250</width>
+     <height>38</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>524287</width>
+     <height>300</height>
+    </size>
+   </property>
+   <property name="contextMenuPolicy">
+    <enum>Qt::PreventContextMenu</enum>
+   </property>
+   <attribute name="dockWidgetArea">
+    <number>2</number>
+   </attribute>
+   <widget class="QWidget" name="dockWidgetContents">
+    <widget class="QTabWidget" name="tabWidget">
+     <property name="enabled">
+      <bool>true</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>-120</x>
+       <y>730</y>
+       <width>411</width>
+       <height>0</height>
+      </rect>
+     </property>
+     <property name="currentIndex">
+      <number>0</number>
+     </property>
+     <widget class="QWidget" name="tab">
+      <attribute name="title">
+       <string>直线</string>
+      </attribute>
+     </widget>
+     <widget class="QWidget" name="tab_2">
+      <attribute name="title">
+       <string>圆</string>
+      </attribute>
+      <widget class="QWidget" name="widget_8" native="true">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>10</y>
+         <width>411</width>
+         <height>0</height>
+        </rect>
+       </property>
+       <widget class="QLabel" name="label_35">
+        <property name="geometry">
+         <rect>
+          <x>20</x>
+          <y>87</y>
+          <width>121</width>
+          <height>22</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font-family: PingFang SC;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 22px;
+
+color: #333333;</string>
+        </property>
+        <property name="text">
+         <string>边缘高阈值</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="ldt__Maxcir">
+        <property name="geometry">
+         <rect>
+          <x>370</x>
+          <y>300</y>
+          <width>40</width>
+          <height>30</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background: #FFFFFF;
+border: 1px solid #5498E8;
+box-sizing: border-box;
+border-radius: 4px;
+
+font-family: PingFang SC;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height */
+
+
+color: #666666;</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="ldt_Mincir">
+        <property name="geometry">
+         <rect>
+          <x>370</x>
+          <y>220</y>
+          <width>40</width>
+          <height>30</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background: #FFFFFF;
+border: 1px solid #5498E8;
+box-sizing: border-box;
+border-radius: 4px;
+
+font-family: PingFang SC;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height */
+
+
+color: #666666;</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_36">
+        <property name="geometry">
+         <rect>
+          <x>20</x>
+          <y>157</y>
+          <width>121</width>
+          <height>22</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font-family: PingFang SC;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 22px;
+
+color: #333333;</string>
+        </property>
+        <property name="text">
+         <string>圆心累加器阈值</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_38">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>307</y>
+          <width>141</width>
+          <height>22</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font-family: PingFang SC;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 22px;
+
+color: #333333;</string>
+        </property>
+        <property name="text">
+         <string>最大圆半径</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+       <widget class="QSlider" name="horizontalSlider_Maxcir">
+        <property name="geometry">
+         <rect>
+          <x>166</x>
+          <y>310</y>
+          <width>200</width>
+          <height>15</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QSlider{
+    border: 1px solid transparent;
+}
+QSlider::groove{
+    border: 1px solid   rgb(0,84,253);
+    background:  rgb(0,84,253);
+}
+QSlider::handle {/*设置中间的那个滑动的键*/                           
+    border: 1px solid   rgb(154,187,255);
+    background:rgb(154,187,255);
+}
+QSlider::groove:horizontal {
+    height: 3px; /* the groove expands to the size of the slider by default. by giving it a height, it has a fixed size */
+    left:5px; right: 5px;
+}
+QSlider::groove:vertical{
+    width: 3px;
+    top: 5px; bottom: 5px;
+}
+QSlider::handle:horizontal{
+    width: 6px;
+    margin: -7px; /* height */
+}
+QSlider::handle:vertical{
+    height: 6px;
+    margin: -7px; /* height */
+}
+QSlider::add-page{/*还没有滑上去的地方*/
+    border: 1px solid   rgb(0,84,253);
+    background:  rgb(0,84,253);
+}
+QSlider::sub-page{/*已经划过的从地方*/                            
+    background:  rgb(0,84,253);
+}</string>
+        </property>
+        <property name="maximum">
+         <number>1000</number>
+        </property>
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+       </widget>
+       <widget class="QSlider" name="horizontalSlider_CirH">
+        <property name="geometry">
+         <rect>
+          <x>166</x>
+          <y>90</y>
+          <width>200</width>
+          <height>15</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QSlider{
+    border: 1px solid transparent;
+}
+QSlider::groove{
+    border: 1px solid   rgb(0,84,253);
+    background:  rgb(0,84,253);
+}
+QSlider::handle {/*设置中间的那个滑动的键*/                           
+    border: 1px solid   rgb(154,187,255);
+    background:rgb(154,187,255);
+}
+QSlider::groove:horizontal {
+    height: 3px; /* the groove expands to the size of the slider by default. by giving it a height, it has a fixed size */
+    left:5px; right: 5px;
+}
+QSlider::groove:vertical{
+    width: 3px;
+    top: 5px; bottom: 5px;
+}
+QSlider::handle:horizontal{
+    width: 6px;
+    margin: -7px; /* height */
+}
+QSlider::handle:vertical{
+    height: 6px;
+    margin: -7px; /* height */
+}
+QSlider::add-page{/*还没有滑上去的地方*/
+    border: 1px solid   rgb(0,84,253);
+    background:  rgb(0,84,253);
+}
+QSlider::sub-page{/*已经划过的从地方*/                            
+    background:  rgb(0,84,253);
+}</string>
+        </property>
+        <property name="maximum">
+         <number>255</number>
+        </property>
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+       </widget>
+       <widget class="QSlider" name="horizontalSlider_CirL">
+        <property name="geometry">
+         <rect>
+          <x>166</x>
+          <y>160</y>
+          <width>200</width>
+          <height>15</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QSlider{
+    border: 1px solid transparent;
+}
+QSlider::groove{
+    border: 1px solid   rgb(0,84,253);
+    background:  rgb(0,84,253);
+}
+QSlider::handle {/*设置中间的那个滑动的键*/                           
+    border: 1px solid   rgb(154,187,255);
+    background:rgb(154,187,255);
+}
+QSlider::groove:horizontal {
+    height: 3px; /* the groove expands to the size of the slider by default. by giving it a height, it has a fixed size */
+    left:5px; right: 5px;
+}
+QSlider::groove:vertical{
+    width: 3px;
+    top: 5px; bottom: 5px;
+}
+QSlider::handle:horizontal{
+    width: 6px;
+    margin: -7px; /* height */
+}
+QSlider::handle:vertical{
+    height: 6px;
+    margin: -7px; /* height */
+}
+QSlider::add-page{/*还没有滑上去的地方*/
+    border: 1px solid   rgb(0,84,253);
+    background:  rgb(0,84,253);
+}
+QSlider::sub-page{/*已经划过的从地方*/                            
+    background:  rgb(0,84,253);
+}</string>
+        </property>
+        <property name="maximum">
+         <number>255</number>
+        </property>
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_34">
+        <property name="geometry">
+         <rect>
+          <x>20</x>
+          <y>17</y>
+          <width>131</width>
+          <height>22</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font-family: PingFang SC;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 22px;
+
+color: #333333;</string>
+        </property>
+        <property name="text">
+         <string>圆心之间最小距离</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_37">
+        <property name="geometry">
+         <rect>
+          <x>20</x>
+          <y>227</y>
+          <width>121</width>
+          <height>22</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font-family: PingFang SC;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 22px;
+
+color: #333333;</string>
+        </property>
+        <property name="text">
+         <string>最小圆半径</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="ldt__MinHCir">
+        <property name="geometry">
+         <rect>
+          <x>370</x>
+          <y>10</y>
+          <width>40</width>
+          <height>30</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background: #FFFFFF;
+border: 1px solid #5498E8;
+box-sizing: border-box;
+border-radius: 4px;
+
+font-family: PingFang SC;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height */
+
+
+color: #666666;</string>
+        </property>
+       </widget>
+       <widget class="QSlider" name="horizontalSlider_MinHCir">
+        <property name="geometry">
+         <rect>
+          <x>166</x>
+          <y>20</y>
+          <width>200</width>
+          <height>15</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QSlider{
+    border: 1px solid transparent;
+}
+QSlider::groove{
+    border: 1px solid   rgb(0,84,253);
+    background:  rgb(0,84,253);
+}
+QSlider::handle {/*设置中间的那个滑动的键*/                           
+    border: 1px solid   rgb(154,187,255);
+    background:rgb(154,187,255);
+}
+QSlider::groove:horizontal {
+    height: 3px; /* the groove expands to the size of the slider by default. by giving it a height, it has a fixed size */
+    left:5px; right: 5px;
+}
+QSlider::groove:vertical{
+    width: 3px;
+    top: 5px; bottom: 5px;
+}
+QSlider::handle:horizontal{
+    width: 6px;
+    margin: -7px; /* height */
+}
+QSlider::handle:vertical{
+    height: 6px;
+    margin: -7px; /* height */
+}
+QSlider::add-page{/*还没有滑上去的地方*/
+    border: 1px solid   rgb(0,84,253);
+    background:  rgb(0,84,253);
+}
+QSlider::sub-page{/*已经划过的从地方*/                            
+    background:  rgb(0,84,253);
+}</string>
+        </property>
+        <property name="maximum">
+         <number>100</number>
+        </property>
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="ldt_CirL">
+        <property name="geometry">
+         <rect>
+          <x>370</x>
+          <y>153</y>
+          <width>40</width>
+          <height>30</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background: #FFFFFF;
+border: 1px solid #5498E8;
+box-sizing: border-box;
+border-radius: 4px;
+
+font-family: PingFang SC;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height */
+
+
+color: #666666;</string>
+        </property>
+       </widget>
+       <widget class="QSlider" name="horizontalSlider_Mincir">
+        <property name="geometry">
+         <rect>
+          <x>166</x>
+          <y>230</y>
+          <width>200</width>
+          <height>15</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QSlider{
+    border: 1px solid transparent;
+}
+QSlider::groove{
+    border: 1px solid   rgb(0,84,253);
+    background:  rgb(0,84,253);
+}
+QSlider::handle {/*设置中间的那个滑动的键*/                           
+    border: 1px solid   rgb(154,187,255);
+    background:rgb(154,187,255);
+}
+QSlider::groove:horizontal {
+    height: 3px; /* the groove expands to the size of the slider by default. by giving it a height, it has a fixed size */
+    left:5px; right: 5px;
+}
+QSlider::groove:vertical{
+    width: 3px;
+    top: 5px; bottom: 5px;
+}
+QSlider::handle:horizontal{
+    width: 6px;
+    margin: -7px; /* height */
+}
+QSlider::handle:vertical{
+    height: 6px;
+    margin: -7px; /* height */
+}
+QSlider::add-page{/*还没有滑上去的地方*/
+    border: 1px solid   rgb(0,84,253);
+    background:  rgb(0,84,253);
+}
+QSlider::sub-page{/*已经划过的从地方*/                            
+    background:  rgb(0,84,253);
+}</string>
+        </property>
+        <property name="maximum">
+         <number>1000</number>
+        </property>
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="ldt_CirH">
+        <property name="geometry">
+         <rect>
+          <x>370</x>
+          <y>81</y>
+          <width>40</width>
+          <height>30</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background: #FFFFFF;
+border: 1px solid #5498E8;
+box-sizing: border-box;
+border-radius: 4px;
+
+font-family: PingFang SC;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height */
+
+
+color: #666666;</string>
+        </property>
+       </widget>
+      </widget>
+     </widget>
+    </widget>
+    <widget class="QTreeView" name="treeView">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>243</width>
+       <height>171</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="Btn_Remove_2">
+     <property name="geometry">
+      <rect>
+       <x>130</x>
+       <y>180</y>
+       <width>78</width>
+       <height>30</height>
+      </rect>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>0</width>
+       <height>30</height>
+      </size>
+     </property>
+     <property name="text">
+      <string>删除</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="Btn_DeAll">
+     <property name="geometry">
+      <rect>
+       <x>40</x>
+       <y>180</y>
+       <width>78</width>
+       <height>30</height>
+      </rect>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>0</width>
+       <height>30</height>
+      </size>
+     </property>
+     <property name="text">
+      <string>清空</string>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QDockWidget" name="dockWidget_2">
+   <property name="minimumSize">
+    <size>
+     <width>250</width>
+     <height>38</height>
+    </size>
+   </property>
+   <attribute name="dockWidgetArea">
+    <number>2</number>
+   </attribute>
+   <widget class="QWidget" name="dockWidgetContents_5">
+    <widget class="QPushButton" name="Btn_Save">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>180</y>
+       <width>78</width>
+       <height>30</height>
+      </rect>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>0</width>
+       <height>30</height>
+      </size>
+     </property>
+     <property name="text">
+      <string>保存</string>
+     </property>
+    </widget>
+    <widget class="QTreeView" name="treeView_2">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>243</width>
+       <height>171</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QWidget" name="widget_7" native="true">
+     <property name="geometry">
+      <rect>
+       <x>-10</x>
+       <y>220</y>
+       <width>251</width>
+       <height>161</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QWidget#widget_7{border:1px solid rgb(118, 118, 118);}</string>
+     </property>
+     <widget class="QLabel" name="label_22">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>40</y>
+        <width>101</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>11</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>圆</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_20">
+      <property name="geometry">
+       <rect>
+        <x>40</x>
+        <y>70</y>
+        <width>41</width>
+        <height>25</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>圆心：</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_23">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>10</y>
+        <width>131</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>11</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>类型</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_21">
+      <property name="geometry">
+       <rect>
+        <x>40</x>
+        <y>110</y>
+        <width>41</width>
+        <height>25</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>半径：</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="Ldt_CirPoint">
+      <property name="geometry">
+       <rect>
+        <x>90</x>
+        <y>70</y>
+        <width>113</width>
+        <height>25</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>PingFang SC</family>
+        <pointsize>-1</pointsize>
+        <weight>50</weight>
+        <italic>false</italic>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background: #FFFFFF;
+border: 1px solid #5498E8;
+box-sizing: border-box;
+border-radius: 4px;
+
+font-family: PingFang SC;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 20px;</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="Ldt_cirPi">
+      <property name="geometry">
+       <rect>
+        <x>90</x>
+        <y>110</y>
+        <width>113</width>
+        <height>25</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>PingFang SC</family>
+        <pointsize>-1</pointsize>
+        <weight>50</weight>
+        <italic>false</italic>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background: #FFFFFF;
+border: 1px solid #5498E8;
+box-sizing: border-box;
+border-radius: 4px;
+
+font-family: PingFang SC;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 20px;</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="widget_6" native="true">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>380</y>
+       <width>250</width>
+       <height>161</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QWidget#widget_6{border:1px solid rgb(118, 118, 118);}</string>
+     </property>
+     <widget class="QLabel" name="label_8">
+      <property name="geometry">
+       <rect>
+        <x>40</x>
+        <y>80</y>
+        <width>41</width>
+        <height>25</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>角度：</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_19">
+      <property name="geometry">
+       <rect>
+        <x>40</x>
+        <y>120</y>
+        <width>41</width>
+        <height>25</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>长度：</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="Ldt_CD">
+      <property name="geometry">
+       <rect>
+        <x>90</x>
+        <y>120</y>
+        <width>113</width>
+        <height>25</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>PingFang SC</family>
+        <pointsize>-1</pointsize>
+        <weight>50</weight>
+        <italic>false</italic>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background: #FFFFFF;
+border: 1px solid #5498E8;
+box-sizing: border-box;
+border-radius: 4px;
+
+font-family: PingFang SC;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 20px;</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>40</y>
+        <width>101</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>11</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>直线</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_7">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>10</y>
+        <width>131</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>11</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>类型</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="Ldt_Jdu">
+      <property name="geometry">
+       <rect>
+        <x>90</x>
+        <y>80</y>
+        <width>113</width>
+        <height>25</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>PingFang SC</family>
+        <pointsize>-1</pointsize>
+        <weight>50</weight>
+        <italic>false</italic>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background: #FFFFFF;
+border: 1px solid #5498E8;
+box-sizing: border-box;
+border-radius: 4px;
+
+font-family: PingFang SC;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 20px;</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QPushButton" name="Btn_Remove">
+     <property name="geometry">
+      <rect>
+       <x>160</x>
+       <y>180</y>
+       <width>78</width>
+       <height>30</height>
+      </rect>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>0</width>
+       <height>30</height>
+      </size>
+     </property>
+     <property name="text">
+      <string>删除</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="Btn_DeAll_2">
+     <property name="geometry">
+      <rect>
+       <x>80</x>
+       <y>180</y>
+       <width>78</width>
+       <height>30</height>
+      </rect>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>0</width>
+       <height>30</height>
+      </size>
+     </property>
+     <property name="text">
+      <string>清空</string>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+  <action name="action">
+   <property name="text">
+    <string>使用文档</string>
+   </property>
+  </action>
+  <action name="action_2">
+   <property name="icon">
+    <iconset resource="qrc.qrc">
+     <normaloff>:/images/1.png</normaloff>:/images/1.png</iconset>
+   </property>
+   <property name="text">
+    <string>选择图片</string>
+   </property>
+  </action>
+  <action name="action_3">
+   <property name="icon">
+    <iconset resource="qrc.qrc">
+     <normaloff>:/images/group (5).png</normaloff>:/images/group (5).png</iconset>
+   </property>
+   <property name="text">
+    <string>文件保存</string>
+   </property>
+  </action>
+  <action name="action_4">
+   <property name="text">
+    <string>另存为</string>
+   </property>
+  </action>
+  <action name="action_5">
+   <property name="text">
+    <string>关闭</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="qrc.qrc"/>
+ </resources>
+ <connections/>
+</ui>
